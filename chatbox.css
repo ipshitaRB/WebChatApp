@@ -1,0 +1,70 @@
+body{
+	background-color: black;
+    color: #00FF00;
+}
+
+#chat_area{
+    color: #FF00FF;
+    right: 10%;
+    bottom: 20%;
+    background-color: #000000;
+	position: fixed;
+	text-align:left;
+	padding:10px;
+	background:#fff;
+	height:50%;
+	width:30%;
+	border:1px solid #8a8982;
+	overflow:auto;
+	box-shadow: 0 0 15px #00214B;
+}
+
+#other_user_name{
+    position: fixed;
+    right: 25%;
+    top: 20%;    
+}
+
+#msg_window{
+    color: #FF00FF;
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+}
+
+#onlineUsersList{
+    width: 10%;
+}
+
+#user_list{
+    list-style-type: none;
+   	position: fixed;
+    text-align: center;
+    width: 15%;
+    }
+#user_list li {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#user_list li:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

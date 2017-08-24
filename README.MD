@@ -1,0 +1,1 @@
+This is a chat application created using Php and MySql as a web programming project.
